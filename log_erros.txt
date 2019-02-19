@@ -1,0 +1,25 @@
+
+
+------- 14-02-2019 -------
+                                HTTPSConnectionPool(host='www.vulture.com', port=443): Max retries exceeded with url: /2019/02/good-omens-amazon-premiere-date.html (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f80270b17f0>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 14-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 14-02-2019 -------
+                                HTTPSConnectionPool(host='www.thecherokeean.com', port=443): Max retries exceeded with url: /articles/45444/view (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f802741bf28>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 14-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 16-02-2019 -------
+                                HTTPConnectionPool(host='www.ajudaily.com', port=80): Max retries exceeded with url: /view/20190214104633204 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f536ad8fac8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+------- 16-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 17-02-2019 -------
+                                Exceeded 30 redirects.
+
+------- 17-02-2019 -------
+                                'NoneType' object has no attribute 'text'

@@ -1,5 +1,5 @@
-from googlesearch import search_news # biblioteca para obter os resultados de busca no google
-from scrapper import Scrapper
+from scrapper import Scrapper # Classe criada para buscar no google informações da empresa
+from datetime import datetime
 import csv
 
 # Lê o arquivo com o nome das empresas a serem buscadas
@@ -13,13 +13,9 @@ headers = {
     'From': 'lucas27_olivio@hotmail.com'
 }
 
+scrap = Scrapper(headers)
+
 for empresa in empresas:
-    print('----------------- Resultados empresa "'+empresa+'" -----------------')
-    resultados = search_news(empresa, tbs="qdr:m", num=10, stop=1, pause=2) #tbs: limite de tempo
-    for i, resultado in enumerate(resultados):
-        scrap = Scrapper(resultado, headers)
-        print('\n')
-        scrap.getTitulo()
-        scrap.whois()
-    print('\n\n')
-  
+    if scrap.buscar(empresa):
+        data = datetime.today().strftime('%d-%m-%Y')
+        print(empresa+' -> '+str(scrap.salvaPaginas('sites/'+empresa+'/'+data+'/')))
