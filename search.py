@@ -14,8 +14,11 @@ headers = {
 }
 
 scrap = Scrapper(headers)
+date = {
+    'from':"07-01-2017", 
+    'to':'07-02-2017'
+}
 
 for empresa in empresas:
-    if scrap.buscar(empresa):
-        data = datetime.today().strftime('%d-%m-%Y')
-        print(empresa+' -> '+str(scrap.salvaPaginas('sites/'+empresa+'/'+data+'/')))
+    if scrap.buscar(empresa, date = date):
+        print(empresa+' -> '+str(scrap.salvaPaginas('sites/'+empresa+'/'+date['from']+'_'+date['to']+'/')))
