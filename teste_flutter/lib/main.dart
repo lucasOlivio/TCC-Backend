@@ -1,4 +1,6 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
+import "package:teste_flutter/class/user.dart";
+import 'package:teste_flutter/function/widgetGenerator.dart';
 
 void main() => runApp(MyApp());
 
@@ -6,11 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Teste',
+      title: "Flutter Teste",
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: HomePage(title: 'Flutter Teste TCC'),
+      home: HomePage(title: "Flutter Teste TCC"),
     );
   }
 }
@@ -34,13 +36,15 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           TextFormField(
             decoration: InputDecoration(
-                labelText: 'E-mail'
+                labelText: "E-mail"
             ),
             keyboardType: TextInputType.emailAddress,
             validator: (String arg) {
-              if((arg.length == 0) || !(arg.contains('@'))) {
-                return 'Digite um e-mail válido';
-              }else {
+              Pattern pattern =  r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+              RegExp regex = new RegExp(pattern);
+              if((arg.length == 0) || !regex.hasMatch(arg)){
+                return "Digite um e-mail válido";
+              }else{
                 return null;
               }
             },
@@ -51,12 +55,12 @@ class _HomePageState extends State<HomePage> {
 
           TextFormField(
             decoration: InputDecoration(
-                labelText: 'Senha'
+                labelText: "Senha"
             ),
             obscureText: true,
             validator: (String arg) {
               if(arg.length < 6) {
-                return 'Digite uma senha válida';
+                return "Digite uma senha válida";
               }else{
                 return null;
               }
@@ -67,7 +71,7 @@ class _HomePageState extends State<HomePage> {
           ),
 
           RaisedButton(
-            child: const Text('Entrar', semanticsLabel: 'Entrar'),
+            child: const Text("Entrar", semanticsLabel: "Entrar"),
             color: Colors.lightGreen,
             splashColor: Colors.blueGrey,
             onPressed: _validarLogin,
@@ -75,17 +79,32 @@ class _HomePageState extends State<HomePage> {
     ]);
   }
 
-  void _validarLogin(){
+
+  void _validarLogin() async {
+    bool _loginOK = true;
     if (_formKey.currentState.validate()) {
       _formKey.currentState.save();
     }else{
+      _loginOK = false;
       setState(() {
         _autoValidate = true;
       });
     }
 
-    print("Login : $_email e senha: $_password");
-    //Inserir função de login
+    if(_loginOK){
+      User user = new User(_email,_password);
+      try{
+        if(await user.validateLogin()){
+          print('Usuário logado!');
+        }else{
+          print("Usuário não encontrado!");
+          buildAlert(context,"Usuário não encontrado!","Email/Senha incorretos");
+        }
+      }catch(e){
+        print(e.toString());
+        buildAlert(context,"Ocorreu um erro!","Tente novamente em instantes");
+      }
+    }
   }
 
   @override
