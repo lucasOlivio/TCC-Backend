@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:teste_flutter/class/user.dart";
-import 'package:teste_flutter/function/widgetGenerator.dart';
+import "package:teste_flutter/function/widgetGenerator.dart";
+import "package:teste_flutter/screen/mainScreen.dart";
 
 void main() => runApp(MyApp());
 
@@ -32,7 +33,7 @@ class _HomePageState extends State<HomePage> {
   String _password;
 
   Widget formLogin(){
-    return new Column(
+    return Column(
         children: <Widget>[
           TextFormField(
             decoration: InputDecoration(
@@ -41,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             keyboardType: TextInputType.emailAddress,
             validator: (String arg) {
               Pattern pattern =  r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
-              RegExp regex = new RegExp(pattern);
+              RegExp regex = RegExp(pattern);
               if((arg.length == 0) || !regex.hasMatch(arg)){
                 return "Digite um e-mail válido";
               }else{
@@ -71,14 +72,13 @@ class _HomePageState extends State<HomePage> {
           ),
 
           RaisedButton(
-            child: const Text("Entrar", semanticsLabel: "Entrar"),
+            child: Text("Entrar", semanticsLabel: "Entrar"),
             color: Colors.lightGreen,
             splashColor: Colors.blueGrey,
             onPressed: _validarLogin,
           ),
     ]);
   }
-
 
   void _validarLogin() async {
     bool _loginOK = true;
@@ -95,7 +95,8 @@ class _HomePageState extends State<HomePage> {
       User user = new User(_email,_password);
       try{
         if(await user.validateLogin()){
-          print('Usuário logado!');
+          print("Usuário logado!");
+          Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => MainScreen()));
         }else{
           print("Usuário não encontrado!");
           buildAlert(context,"Usuário não encontrado!","Email/Senha incorretos");
@@ -118,7 +119,15 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            new Form(
+            Padding(
+              padding: EdgeInsets.only(top:0),
+              child: Icon(
+                Icons.monetization_on,
+                color:  Colors.green,
+                size: 90.0,
+              ), 
+            ),
+            Form(
               key: _formKey,
               autovalidate: _autoValidate,
               child: formLogin(),

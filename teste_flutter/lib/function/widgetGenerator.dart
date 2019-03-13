@@ -5,11 +5,11 @@ void buildAlert(context,title,msg){ //Exibe modal na tela
     context: context,
     builder: (BuildContext context) {
       return AlertDialog(
-        title: new Text(title),
-        content: new Text(msg),
+        title: Text(title),
+        content: Text(msg),
         actions: <Widget>[
-          new FlatButton(
-            child: new Text("Fechar"),
+          FlatButton(
+            child: Text("Fechar"),
             onPressed: () {
               Navigator.of(context).pop();
             },
