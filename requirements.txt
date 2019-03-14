@@ -11,7 +11,6 @@ psutil==5.4.2
 pycrypto==2.6.1
 pycurl==7.43.0.1
 requests==2.18.4
-system-service==0.3
 systemd-python==234
 ufw==0.35
 urllib3==1.22
