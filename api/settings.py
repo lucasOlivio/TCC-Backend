@@ -16,13 +16,12 @@ import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = dj_database_url.config('SECRET_KEY')
-DEBUG = dj_database_url.config('DEBUG', default=False, cast=bool)
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
+DEBUG = False
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'blooming-cliffs-28339.herokuapp.com']
 
 # Application definition
 
@@ -67,18 +66,26 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'api.wsgi.application'
+WSGI_APPLICATION = 'api.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default=dj_database_url.config('DATABASE_URL')
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.environ.get('DB_NAME', ''),
+        'USER': os.environ.get('DB_USER', ''),
+        'PASSWORD': os.environ.get('DB_PASS', ''),
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
 
+# for dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -122,14 +129,6 @@ USE_TZ = True
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# # Static files (CSS, JavaScript, Images)
-# # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATIC_ROOT = BASE_DIR
-STATIC_URL = os.path.join(BASE_DIR, 'static/')
-
-# # Extra places for collectstatic to find static files.
-# STATICFILES_DIRS = (
-#     os.path.join(PROJECT_ROOT, 'static'),
-# )
-
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
