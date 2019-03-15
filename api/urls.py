@@ -2,6 +2,7 @@ from django.urls import path
 from rest_framework.authtoken.views import obtain_auth_token
 from invest_back_end import views
 from django.contrib import admin
+from django.conf.urls import include, url
 
 # URLs redirecting to views functions or apps
 urlpatterns = [
