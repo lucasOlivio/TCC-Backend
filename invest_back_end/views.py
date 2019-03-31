@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 
 # Adding path to the functions folder
 import sys
-sys.path.insert(0, './functions/')
+sys.path.insert(0, 'functions/')
 from shares import Shares
 
 
