@@ -2,6 +2,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from invest_back_end.shares import Shares
+from pandas.tseries.offsets import BDay
+import datetime
 
 
 class MainGraphView(APIView):
