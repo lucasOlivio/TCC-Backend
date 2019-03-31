@@ -1,7 +1,10 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
-from functions.shares import Shares
+
+# Adding path to the functions folder
+sys.path.insert(0, './functions/')
+from shares import Shares
 
 
 class MainGraphView(APIView):
