@@ -12,14 +12,13 @@ class MainGraphView(APIView):
 
     # Receives the request and returns the json with the message
     def get(self, request):
-        symbol = request.GET['symbol']
-        if symbol!='':
+        if request.GET.get('symbol')!='':
             today = datetime.datetime.now()
             week_ago = (today - BDay(7)).date()
             month_ago = (today - datetime.timedelta(days=31)).date()
             year_ago = (today - datetime.timedelta(days=365)).date()
 
-            share = Shares(symbol)
+            share = Shares(request.GET['symbol'])
 
             stockClose_week = share.getClosing([week_ago, today])
             stockClose_month = share.getClosing([month_ago, today])
@@ -37,6 +36,6 @@ class MainGraphView(APIView):
             }
         else:
             content = {
-                'resp': 'Nenhum símbolo informado!'
+                'resp': 'Nenhuma ação informada!'
             }
         return Response(content)
