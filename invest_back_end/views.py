@@ -16,8 +16,8 @@ class MainGraphView(APIView):
         if symbol!='':
             today = datetime.datetime.now()
             week_ago = (today - BDay(7)).date()
-            month_ago = (today - BDay(31)).date()
-            year_ago = (today - BDay(365)).date()
+            month_ago = (today - datetime.timedelta(days=31)).date()
+            year_ago = (today - datetime.timedelta(days=365)).date()
 
             share = Shares(symbol)
 
