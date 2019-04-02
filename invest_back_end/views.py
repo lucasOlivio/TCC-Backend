@@ -12,30 +12,36 @@ class MainGraphView(APIView):
 
     # Receives the request and returns the json with the message
     def get(self, request):
-        if request.GET.get('symbol')!='':
-            today = datetime.datetime.now()
-            week_ago = (today - BDay(7)).date()
-            month_ago = (today - datetime.timedelta(days=31)).date()
-            year_ago = (today - datetime.timedelta(days=365)).date()
-
-            share = Shares(request.GET['symbol'])
-
-            stockClose_week = share.getClosing([week_ago, today])
-            stockClose_month = share.getClosing([month_ago, today])
-            stockClose_year = share.getClosing([year_ago, today])
-
-            resp = True
-            data = [
-                stockClose_week,
-                stockClose_month,
-                stockClose_year,
-            ]
-            content = {
-                'resp': resp,
-                'data':data
+        content = {
+                'resp': request.GET,
+                'data':[[0.0,0.0,0.0,0.0,0.0,0.0,0.0]]
             }
-        else:
-            content = {
-                'resp': 'Nenhuma ação informada!'
-            }
+        
+
+        # if request.GET.get('symbol')!='':
+        #     today = datetime.datetime.now()
+        #     week_ago = (today - BDay(7)).date()
+        #     month_ago = (today - datetime.timedelta(days=31)).date()
+        #     year_ago = (today - datetime.timedelta(days=365)).date()
+
+        #     share = Shares(request.GET['symbol'])
+
+        #     stockClose_week = share.getClosing([week_ago, today])
+        #     stockClose_month = share.getClosing([month_ago, today])
+        #     stockClose_year = share.getClosing([year_ago, today])
+
+        #     resp = True
+        #     data = [
+        #         stockClose_week,
+        #         stockClose_month,
+        #         stockClose_year,
+        #     ]
+        #     content = {
+        #         'resp': resp,
+        #         'data':data
+        #     }
+        # else:
+        #     content = {
+        #         'resp': 'Nenhuma ação informada!'
+        #     }
         return Response(content)
