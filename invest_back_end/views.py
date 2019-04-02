@@ -13,7 +13,7 @@ class MainGraphView(APIView):
     # Receives the request and returns the json with the message
     def get(self, request):
         content = {
-                'resp': request.GET,
+                'resp': request,
                 'data':[[0.0,0.0,0.0,0.0,0.0,0.0,0.0]]
             }
         
