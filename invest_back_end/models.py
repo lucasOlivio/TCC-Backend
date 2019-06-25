@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.dispatch import receiver
+from django.db.models.signals import post_save
 
 # Create new table for the extra info about the user
 class Profile(models.Model):
