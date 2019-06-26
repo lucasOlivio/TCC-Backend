@@ -51,7 +51,7 @@ class MainDataView(APIView):
     def get(self, request):
 
         content = {
-                'resp': request.META.get('Authorization')
+                'resp': request.META
             }
 
         return Response(content)
