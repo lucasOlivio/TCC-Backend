@@ -8,10 +8,6 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     gender = models.TextField(max_length=15, blank=True)
     age = models.IntegerField(null=True)
-    
-    class Meta:
-        app_label = 'profiles'
-        managed = True
 
 # @receiver(post_save, sender=User)
 # def create_user_profile(sender, instance, created, **kwargs):
