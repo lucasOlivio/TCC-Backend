@@ -1,0 +1,1213 @@
+
+
+------- 14-02-2019 -------
+                                HTTPSConnectionPool(host='www.vulture.com', port=443): Max retries exceeded with url: /2019/02/good-omens-amazon-premiere-date.html (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f80270b17f0>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 14-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 14-02-2019 -------
+                                HTTPSConnectionPool(host='www.thecherokeean.com', port=443): Max retries exceeded with url: /articles/45444/view (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f802741bf28>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 14-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 16-02-2019 -------
+                                HTTPConnectionPool(host='www.ajudaily.com', port=80): Max retries exceeded with url: /view/20190214104633204 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f536ad8fac8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+------- 16-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 17-02-2019 -------
+                                Exceeded 30 redirects.
+
+------- 17-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 18-02-2019 -------
+                                HTTPSConnectionPool(host='www.northwaleschronicle.co.uk', port=443): Max retries exceeded with url: /news/17441103.alun-cairns-met-with-representatives-from-the-firm-at-the-start-of-his-visit-to-japan/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f639950a898>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 18-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 20-02-2019 -------
+                                HTTPSConnectionPool(host='www.northwaleschronicle.co.uk', port=443): Max retries exceeded with url: /news/17441103.alun-cairns-met-with-representatives-from-the-firm-at-the-start-of-his-visit-to-japan/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2dc59fa7b8>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 20-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 -------
+                                ('Connection aborted.', OSError(0, 'Error'))
+
+------- 22-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 -------
+                                ('Connection aborted.', OSError(0, 'Error'))
+
+------- 22-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 -------
+                                ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+------- 22-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 -------
+                                HTTPSConnectionPool(host='stocknews.com', port=443): Max retries exceeded with url: /news/intc-intels-intc-stock-jumps-after-morgan-stanley-upgrade/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f166704df28>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 22-02-2019 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 -------
+                                must be str, not int
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/negocios/rainha-do-comercio-online-amazon-desperta-para-o-lado-verde-da-forca/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIFCgAMAA&usg=AOvVaw0J8dSzgnD5yxfmodh2EyBg'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/series/serie-de-o-senhor-dos-aneis-da-amazon-comeca-a-sair-do-papel-133435/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIFygAMAE&usg=AOvVaw2pBkNLdg2ShvGNJJUjwNCx'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/negocios/nada-de-amazon-magazine-luiza-se-inspira-na-chinesa-wechat/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIGigAMAI&usg=AOvVaw0no9YN-ar3tlxD0YgdE_FG'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://tecnoblog.net/279839/amazon-serie-senhor-dos-aneis-teaser/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIHSgAMAM&usg=AOvVaw24tV0oE3EToDxiTjWCl5p7'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://portalnovarejo.com.br/2019/02/em-dois-anos-e-commerce-do-walmart-vai-ameacar-dominio-da-amazon-diz-analista/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIJigAMAQ&usg=AOvVaw391YCnPmC7e1eYbgndJUHB'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://mercado.co.ao/cultura/os-livros-mais-vendidos-na-amazon-FE372007&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIIKSgAMAU&usg=AOvVaw2XaoEUGzerSpfWqFQ8c8Ji'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=http://www.adorocinema.com/noticias/series/noticia-146601/&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIILCgAMAY&usg=AOvVaw3RVFKmGs1Q0Bp4ogwydxJt'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www1.folha.uol.com.br/tec/2019/02/amazon-faz-segundo-investimento-em-startup-de-transporte-no-mes.shtml&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIILygAMAc&usg=AOvVaw29DfEjG-sKJReygNbiiLEr'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www.infomoney.com.br/negocios/grandes-empresas/noticia/7933781/executivos-da-amazon-acalmam-investidores-em-meio-a-escandalos&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIINCgAMAg&usg=AOvVaw2t7AZtnXH_bdJSzkrIEMzA'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://entretenimento.uol.com.br/noticias/redacao/2019/02/22/apos-romper-com-a-amazon-woody-allen-vai-produzir-proximo-filme-na-espanha.htm&sa=U&ved=0ahUKEwjsu7ubwtDgAhVOLLkGHbGpC04QqQIINygAMAk&usg=AOvVaw2vORBHA6i_bc0HNseUMqQo'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://gizmodo.uol.com.br/google-fim-acordos-arbitragem-forcada/&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIFCgAMAA&usg=AOvVaw2modXWj5pjpLkdEH1NTV5P'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/internet/138991-nossas-pesquisas-doencas-google-dizem-sobre-nossa-saude.htm&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIGSgAMAE&usg=AOvVaw0B1xWnKyGBDPUbNhl5_Ic4'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/software/138966-google-prestes-mostrar-hardware-yeti-streaming-games.htm&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIHCgAMAI&usg=AOvVaw214Nglk1WSnVhk68fH3Td0'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www.correiobraziliense.com.br/app/noticia/tecnologia/2019/02/21/interna_tecnologia,739094/google-toma-medidas-para-resolver-falha-explorada-para-pornografia-inf.shtml&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIJSgAMAM&usg=AOvVaw1BgvtQIA0SA8-zqcDn6mIQ'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://adnews.com.br/internet/as-novidades-do-google-para-o-carnaval/&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIKigAMAQ&usg=AOvVaw05pw8EWz58v4KJYsn5E1o9'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://epocanegocios.globo.com/Mundo/noticia/2019/02/veja-os-primeiros-detalhes-de-como-sera-cidade-inteligente-do-google-no-canada.html&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIILSgAMAU&usg=AOvVaw0QtaFr6kLPihCdeDqtfeIe'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/curiosidade/noticias/n138528/apps-do-google-ganham-recursos-para-o-carnaval.html&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIMCgAMAY&usg=AOvVaw2AqocimHoYcVx38BjLO_9g'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://gizmodo.uol.com.br/tcl-novas-tvs-google-assistente-brasil/&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIMygAMAc&usg=AOvVaw0PlDCcb-gBA27KfGEDwXFY'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/negocios/novo-chefe-da-nuvem-do-google-tem-grande-desafio-para-capturar-rivais/&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIINigAMAg&usg=AOvVaw30Tra1DklZdz9MOoxKpfAh'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                No connection adapters were found for '/url?q=https://tecnoblog.net/279849/google-nest-guard-microfone/&sa=U&ved=0ahUKEwidrc-bwtDgAhWGFLkGHShvAAwQqQIIPCgAMAk&usg=AOvVaw3F50mpOJEWIDPv4lXdS6D1'
+
+------- 22-02-2019 20:%i:1550878925 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://livecoins.com.br/bitcoin-vai-chegar-a-1-milhao-de-dolares-diz-vp-da-ibm/&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIFCgAMAA&usg=AOvVaw0KYQEPdx1XVNlRe6Izt75o'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://epocanegocios.globo.com/Carreira/noticia/2019/02/saint-paul-e-ibm-inauguram-espaco-multifuncional-para-promover-inovacao-colaborativa.html&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIGygAMAE&usg=AOvVaw2CRainGyXT5iCyurktEsG6'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://epocanegocios.globo.com/Carreira/noticia/2019/02/ele-comecou-como-estagiario-da-ibm-hoje-e-diretor-geral-de-servicos-de-tecnologia-global-na-america-do-norte.html&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIHigAMAI&usg=AOvVaw3xDFoPgLoX2ai8B24VLzml'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.baguete.com.br/noticias/20/02/2019/leitenski-deixa-o-comando-da-ibm-no-sul&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIISgAMAM&usg=AOvVaw37O5VIkwI_PDwzTWfWWzqQ'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://livecoins.com.br/imb-e-santander-anunciam-parceria-de-us-700-milhoes-com-foco-em-blockchain/&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIJCgAMAQ&usg=AOvVaw20A8q_NE1zl34q0J1vXUnG'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://epocanegocios.globo.com/Empresa/noticia/2019/02/ibm-tera-centro-de-pesquisa-em-inteligencia-artificial-no-brasil.html&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIJygAMAU&usg=AOvVaw3md_i1yqAkWBu5oDRZIviG'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/tecnologia/inteligencia-artificial-da-ibm-nao-consegue-superar-ser-humano/&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIMCgAMAY&usg=AOvVaw0Yoh1a1dANWwp2kf5EJ8-G'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://olhardigital.com.br/noticia/watson-da-ibm-aprende-a-interpretar-sarcasmo-em-apresentacao-na-australia/82827&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIMygAMAc&usg=AOvVaw3sFMjLcJ15-crJzoXfWeLb'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/mercado/138797-ibm-contar-centro-pesquisa-inteligencia-artificial-brasil.htm&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIOSgAMAg&usg=AOvVaw1Sg3CqwLOAV94PNNqsCYcn'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.criptomoedasfacil.com/hyundai-faz-parceria-com-a-ibm-com-foco-na-tecnologia-blockchain/&sa=U&ved=0ahUKEwjM8OKbwtDgAhUzGLkGHRZiB9kQqQIIPCgAMAk&usg=AOvVaw2gZHRkr_hGCp1rm6NBcC63'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4242691-alibaba-group-complex-valuation-update&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIFCgAMAA&usg=AOvVaw3hWabd8gWv1cWGvqx1sFe7'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.channelnewsasia.com/news/business/alibaba-ceo-rules-out-layoffs-this-year-11279464&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIFigAMAE&usg=AOvVaw1VdTvdiV0WdNJJreXJVmRz'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4242659-alibaba-become-painful&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIGygAMAI&usg=AOvVaw3_7XnWd2HKpQFE7NSE4a2J'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://investorplace.com/2019/02/3-reasons-to-buy-alibaba-stock-now/&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIHigAMAM&usg=AOvVaw3xBzxk1DfkFRcRq5zQjo1x'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://nysenewstoday.com/2019/02/22/cautiously-optimistic-alibaba-group-holding-limited-nyse-baba/&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIISgAMAQ&usg=AOvVaw08zKWn1xE8SSrUh04UYthL'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://nmsunews.com/2019/02/22/take-a-puff-on-this-alibaba-group-holding-limited-baba/&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIJCgAMAU&usg=AOvVaw2owGMiErBh5yqKeuIuZc_T'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www1.folha.uol.com.br/mercado/2019/02/gigantes-da-tecnologia-podem-desordenar-sistema-bancario-diz-conselho.shtml&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIILSgAMAY&usg=AOvVaw2cQTEqTfjkaWOF2P0LyAdb'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4241016-alibabas-stock-finished-climbing&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIMCgAMAc&usg=AOvVaw3vBYFop5RRPQd4GQD4QOV7'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://nasdaqclick.com/2019/02/22/summary-of-analysts-rating-alibaba-group-holding-limited-baba/&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIIMigAMAg&usg=AOvVaw1Mggekj4ia7Hg2i5VmBkgO'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.iex.nl/Column/292578/De-koers-van-Alibaba-Group-Holding-is-recent-niet-veel-opgeschoten.aspx&sa=U&ved=0ahUKEwjD0vWbwtDgAhWbHrkGHe0RAxsQqQIINSgAMAk&usg=AOvVaw1SAmQxNEzZBx_BlPueebPH'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://br.ign.com/microsoft/71101/news/novo-xbox-sera-apresentado-na-e3-2019-relata-site&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIFCgAMAA&usg=AOvVaw0GvnLgJaCpfBEgafneHJS-'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.theenemy.com.br/xbox/microsoft-pode-trazer-xbox-game-pass-ao-switch-indica-rumor&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIGSgAMAE&usg=AOvVaw1CI4V6UA9UidZDi-k49LBC'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.terra.com.br/noticias/tecnologia/microsoft-declara-apoio-mas-foge-de-regulamentacao-de-reconhecimento-facial,8f89510b93d1ff1feca1720ef6fde598zbzs3e50.html&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIIigAMAI&usg=AOvVaw1yhK1PWP0LsVC4NoVsudn3'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=http://www.telesintese.com.br/cnj-suspende-contratacao-da-microsoft-pelo-tjsp/&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIJSgAMAM&usg=AOvVaw0u34WnM8ERwgUcW5JepNml'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/software/noticias/n138545/insiders-comemoram-microsoft-inicia-testes-com-windows-10-1809-atraves-do-canal-release-preview.html&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIILigAMAQ&usg=AOvVaw3n1YfdGz28DaExoT6Hwk63'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://olhardigital.com.br/noticia/lancamento-de-aparelhos-dobraveis-da-microsoft-pode-estar-proximo/83013&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIMygAMAU&usg=AOvVaw1jKL1ppGjqKZJ6nVPtDyKJ'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://computerworld.com.br/2019/02/22/imagine-cup-competicao-global-da-microsoft-abre-inscricoes-para-startups/&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIOSgAMAY&usg=AOvVaw3fqtXvuRD7JS-SctqgOjZP'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/software/138944-novo-app-microsoft-sincroniza-facilita-acesso-suite-office.htm&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIPCgAMAc&usg=AOvVaw1b0p-Ga8VupfOg_IYIcW6W'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://computerworld.com.br/2019/02/22/codehb-e-reconhecida-pela-microsoft-como-parceira-power-bi-em-3-paises/&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIRCgAMAg&usg=AOvVaw2yez54oLoK_EnlIUW-dDzH'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                No connection adapters were found for '/url?q=https://olhardigital.com.br/fique_seguro/noticia/microsoft-informa-sobre-vulnerabilidade-que-causa-uso-de-100-da-cpu/83078&sa=U&ved=0ahUKEwj26IicwtDgAhU3ErkGHbyxAv0QqQIIRygAMAk&usg=AOvVaw2R-OalJhU7YxC2LMNsKLaN'
+
+------- 22-02-2019 20:%i:1550878926 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www1.folha.uol.com.br/mercado/2019/02/apple-e-goldman-sachs-formam-parceria-para-cartao-de-credito-vinculado-ao-iphone.shtml&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIFCgAMAA&usg=AOvVaw2JTHyXaKtsX7gNaUEaagcw'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://noticias.uol.com.br/tecnologia/noticias/bloomberg/2019/02/21/apple-pode-unir-apps-de-iphone-ipad-e-mac-ate-2021.htm&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIHSgAMAE&usg=AOvVaw2rhp_jMv4eH4URJ_-ISlrZ'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://tecnoblog.net/279972/apple-design-iphone-dobravel/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIJCgAMAI&usg=AOvVaw1Clxm2jqwWKuZPHUc_yjiL'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/carros/projeto-titan-da-apple-na-verdade-pode-ser-uma-van-eletrica-diz-revista-133369/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIKigAMAM&usg=AOvVaw3uPewuLT1Cf63MRuglANzs'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://macmagazine.uol.com.br/2019/02/22/apple-devera-usar-chip-de-5-nanometros-em-iphones-e-ipads-de-2020/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIMSgAMAQ&usg=AOvVaw10BxK3V4-106Qz9mDWaxhj'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/ios/siri-agora-oferece-sugestoes-com-base-no-today-at-apple-133235/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIINygAMAU&usg=AOvVaw2r3fs4w7L13jN2kXoQkloa'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/smartphone/apple-teve-pior-trimestre-recente-em-vendas-no-fim-de-2018-e-huawei-se-aproxima-133337/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIOigAMAY&usg=AOvVaw3i4U3R9dt2vbn0y9cqfO-y'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.theenemy.com.br/tech/apple-divulga-documento-sobre-carro-autonomo&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIIQSgAMAc&usg=AOvVaw2e3_M0CcWDYmq0YhVlfXDi'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/carreira/google-apple-e-mais-estas-empresas-nao-exigem-diploma/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIISSgAMAg&usg=AOvVaw2EFj--m69a-C2vB-3VImPj'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://macmagazine.uol.com.br/2019/02/22/intel-acredita-que-apple-fara-transicao-para-chips-proprios-ja-em-2020/&sa=U&ved=0ahUKEwi2qJycwtDgAhVXH7kGHWEeD74QqQIITCgAMAk&usg=AOvVaw2XNl3MN0_Nhe17qdYN4DLl'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://noticias.r7.com/tecnologia-e-ciencia/huawei-apresentara-plano-de-seguranca-aos-britanicos-ate-junho-22022019&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIFCgAMAA&usg=AOvVaw206Rxzx0E7LBJEuhlWqb-H'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/produto/138989-outdoor-evento-huawei-confirma-nome-mostra-dobravel-mate-x.htm&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIFygAMAE&usg=AOvVaw2giY5nOH5nfb0dH953l6Qj'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.techtudo.com.br/noticias/2019/02/huawei-p30-sera-lancado-em-26-de-marco.ghtml&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIHygAMAI&usg=AOvVaw0wrTM5N5Y6KBq1_Cf6CD6E'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://extra.globo.com/noticias/economia/trump-diz-que-pode-incluir-huawei-zte-nas-conversas-com-china-23474466.html&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIKCgAMAM&usg=AOvVaw3krAlVXpE16VJIaVR6Wfp5'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://olhardigital.com.br/noticia/politicos-querem-que-a-huawei-saia-da-italia-antes-da-chegada-do-5g/83095&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIKygAMAQ&usg=AOvVaw3rS5mhpfYkYNAZ9lO1fNS6'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://pplware.sapo.pt/smartphones-tablets/android/huawei-xiaomi-cresce-apple-queda/&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIILigAMAU&usg=AOvVaw3jt_8yZRWuistJY9pQGFJf'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.consumidormoderno.com.br/2019/02/22/investimento-bilionario-huawei-tendencia-empresas/&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIINCgAMAY&usg=AOvVaw1uD2QySQUSUeQQC8pZKWu5'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://g1.globo.com/economia/tecnologia/noticia/2019/02/19/dono-sai-em-defesa-da-huawei-os-eua-nao-tem-como-nos-destruir.ghtml&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIINygAMAc&usg=AOvVaw2TOyNTSnVXYpA6dBinAeIz'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/asus/noticias/n138536/galaxy-s10-plus-supera-rivais-teste-autonomia.html&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIIPygAMAg&usg=AOvVaw2xBd8OmzmUjzCl72k0HYlm'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://olhardigital.com.br/noticia/huawei-conheca-tres-dos-melhores-celulares-da-fabricante-chinesa/82850&sa=U&ved=0ahUKEwjZ9a2cwtDgAhUqGrkGHX6_CCUQqQIISCgAMAk&usg=AOvVaw333YtVH03uLKx_GJ210K01'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://news.samsung.com/br/samsung-desdobra-o-futuro-com-uma-nova-categoria-de-smartphones-apresentando-o-galaxy-fold&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIFCgAMAA&usg=AOvVaw1r6DtjYvQ95ehAIkvmrHdf'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://news.samsung.com/us/samsung-unfolds-galaxy-fold-unpacked-2019/&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIHSgAMAE&usg=AOvVaw0GAuW9dO3czeAKCTO-4ByO'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://news.samsung.com/us/samsung-sustainability-replace-plastic-packaging-sustainable-materials/&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIIygAMAI&usg=AOvVaw0lUKht9pFpQif2u7hOyMX0'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://news.samsung.com/global/infographic-samsung-electronics-steps-up-its-commitment-to-sustainability-with-new-product-packaging-policy&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIKigAMAM&usg=AOvVaw1aiXaezsFLxjvdOVdeRqbm'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.business-standard.com/article/news-ians/hpe-samsung-collaborate-to-accelerate-5g-adoption-119022200417_1.html&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIILSgAMAQ&usg=AOvVaw2XbEnQ_rtvN9QuCnUulZjz'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://pulsenews.co.kr/view.php%3Fyear%3D2019%26no%3D100952&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIMCgAMAU&usg=AOvVaw2YNOBQE0dBfM_VLZge_NrQ'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.nrc.nl/nieuws/2019/02/22/samsung-is-meer-dan-de-smartphone-a3655097&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIMygAMAY&usg=AOvVaw2ZPKn1vlo9tDsKGIrD4Z9_'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.coindesk.com/hands-on-preview-of-samsungs-galaxy-s10-phone-reveals-new-crypto-details&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIINigAMAc&usg=AOvVaw2Rp6vvutylp_JahOYcfC4g'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.cnbc.com/2019/01/31/samsung-electronics-gives-grim-earnings-outlook-q4-profit-falls-29percent.html&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIOSgAMAg&usg=AOvVaw1_a-flB2EvgaSexBEdHDgm'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://news.samsung.com/za/samsung-electronics-announces-fourth-quarter-and-fy2018-results&sa=U&ved=0ahUKEwiBtcGcwtDgAhWvGrkGHYbDAYIQqQIIQCgAMAk&usg=AOvVaw2nsVfww3SSzWaVLhb9ffjG'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.cnbc.com/2018/06/28/foxconn-buying-political-insurance-setting-up-shop-in-us-commentator.html&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIFCgAMAA&usg=AOvVaw1FB4Q7OLkEcrqBh13chrIt'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.reuters.com/article/us-foxconn-results/foxconn-profit-below-forecast-on-soaring-operating-costs-shares-fall-idUSKBN1KY19E&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIFygAMAE&usg=AOvVaw0SfBqXuLmuk7Hp0g_RItWj'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.reuters.com/article/us-usa-foxconn/foxconn-announces-north-american-headquarters-in-wisconsin-idUSKBN1JC0FW&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIGigAMAI&usg=AOvVaw37EVsrIRBeIS0fsTVUgmIh'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.forbes.com/sites/ralphjennings/2018/07/12/how-iphone-assembler-foxconn-can-raise-share-prices-over-five-years/&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIHSgAMAM&usg=AOvVaw0Rx2EmVXaIxYw289DMLx7y'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4091843-foxconns-american-dream-wisconsin-shells-3-billion-hon-hai-precision-industry&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIICgAMAQ&usg=AOvVaw3tVViRw71dUtiPwYQpxL6M'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.mobileworldlive.com/asia/asia-news/foxconn-technology-investment-plan-progresses/&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIIygAMAU&usg=AOvVaw3h7905ffV0puiTulNzi3dD'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.mobileworldlive.com/featured-content/home-banner/hmd-global-raises-100m-to-fuel-nokia-devices-push/&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIJigAMAY&usg=AOvVaw0uz3LmR1HtGuLeUuLqeE_j'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.scmp.com/business/companies/article/2154130/why-stock-traders-are-dumping-apple-supplier-foxconn-industrial&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIKSgAMAc&usg=AOvVaw0yD5uoCdntxO4zeJt5vMmf'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://sg.channelasia.tech/article/649256/apple-asia-suppliers-fall-following-iphone-xr-production-rumours/&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIIKygAMAg&usg=AOvVaw0qF8BGwZfQ5dMC7vwRjJsz'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                No connection adapters were found for '/url?q=https://www.chicagotribune.com/business/ct-what-is-foxconn-20170727-story.html&sa=U&ved=0ahUKEwiY29KcwtDgAhW5ErkGHVAzCxMQqQIILigAMAk&usg=AOvVaw2-_fVSV22Ecx9SZPsfAWUV'
+
+------- 22-02-2019 20:%i:1550878927 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4242971-alphabet-market-wrong&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIFCgAMAA&usg=AOvVaw2s67Rk-VGlXbgha9xFUCOm'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4242935-little-known-blunder-google-2012-cost-billions&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIHSgAMAE&usg=AOvVaw1KfTRC5OgggqF2uHmgMNuv'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://stocknews.com/news/googl-report-google-googl-set-to-launch-a-netflix-for-games/&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIHygAMAI&usg=AOvVaw3jpmVhqNhpgAKqbz48kv15'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.indiatoday.in/technology/news/story/google-to-end-forced-arbitration-for-employees-says-its-workers-are-free-to-sue-it-if-needed-1462298-2019-02-22&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIIigAMAM&usg=AOvVaw3JsXcQsgIHLn-MxYe8hbHp'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=http://www.stockmarketstop.com/2019/02/alphabet-inc-goog-outshine-stock-with-glowing-scores/&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIKCgAMAQ&usg=AOvVaw3RxFaKTkqPuHSERrptI2TR'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://health.economictimes.indiatimes.com/news/health-it/google-will-show-opioid-disposal-sites-in-maps-searches/68112579&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIKygAMAU&usg=AOvVaw28Khrdsqn3QgXzSRF3QwXE'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://hinewulm.com/2019/02/22/comparison-of-bilibili-inc-bili-and-alphabet-inc-nasdaqgoogl/&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIILigAMAY&usg=AOvVaw16j-NMjW1F2z8CU-huOvmE'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4239590-alphabet-get-confused&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIMSgAMAc&usg=AOvVaw3y7dDJNm7e42rEduwYLLhU'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.marketwatch.com/story/alphabet-stock-falls-despite-beating-on-earnings-and-revenue-2019-02-04&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIINCgAMAg&usg=AOvVaw13McHS--GIOGr3JXqCXeLt'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://finheadlines.com/2019/02/22/alphabet-inc-googl-and-thestreet-inc-nasdaqtst-comparing-side-by-side/&sa=U&ved=0ahUKEwia_OScwtDgAhUXILkGHY0pDLEQqQIIPSgAMAk&usg=AOvVaw1NWY9w7ZHO9Pksrg2erIaq'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://computerworld.com.br/2019/02/11/hitachi-vantara-uma-startup-dentro-da-gigante-japonesa/&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIFCgAMAA&usg=AOvVaw1Xl0uWt2LSYie6iEuX8-tv'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.caloryfrio.com/calefaccion/bomba-de-calor/hi-kumo-pro-hitachi-herramienta-facilitar-trabajo-instaladores-bombas-de-calor.html&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIFygAMAE&usg=AOvVaw2idYxd9wOh3MB_IZkfI_HP'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.bbc.com/news/uk-wales-politics-47239791&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIGigAMAI&usg=AOvVaw3Yo1XrdzFdu7zYt65IO6Z5'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://asia.nikkei.com/Business/Business-Trends/Hitachi-and-Dyson-can-t-meet-demand-as-Bangkok-gasps-for-air&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIHSgAMAM&usg=AOvVaw3UWjD2SQuhBdZbDtXz1oxz'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.parkiet.com/Finanse/302229984-Hitachi-nie-zamierza-skladac-broni.html&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIICgAMAQ&usg=AOvVaw26IxOz6Z2FhfyWnSinjxke'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://blog.executivebiz.com/2019/02/hitachi-vantara-federals-gordon-nelson-govt-data-strategy-needs-user-input-new-tech/&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIKCgAMAU&usg=AOvVaw316IUa8itBqcaplnLK4lsq'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.digitalnewsasia.com/business/hitachi-vantara-appoints-moti-uttam-country-manager-malaysia&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIKygAMAY&usg=AOvVaw2cnd5wzDdWhShJS5J_-pbM'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://www.displaydaily.com/article/press-releases/maxell-appoints-hitachi-to-launch-its-new-projectors-in-spring-2019&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIILigAMAc&usg=AOvVaw32jRkK3LVmP3KSrxJZrW_Z'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=http://techdosedaily.com/2019/02/22/global-amorphous-core-transformers-market-2019-2025-by-covered-players-hitachi-prolecge-abb-china-power/&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIIMSgAMAg&usg=AOvVaw2e_h8xwrMzYEJktBCMqIcx'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                No connection adapters were found for '/url?q=https://asia.nikkei.com/Business/Companies/Hitachi-expects-50-drop-in-net-profit-due-to-UK-nuclear-woes&sa=U&ved=0ahUKEwjIuv6cwtDgAhXlI7kGHRpQD0UQqQIINCgAMAk&usg=AOvVaw056cARUsj6izj_e6fgCIE5'
+
+------- 22-02-2019 20:%i:1550878928 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://finance.yahoo.com/news/dell-technologies-dell-outpaces-stock-224510448.html&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIFCgAMAA&usg=AOvVaw3ttt1ynJIvt1PFIclJB2eS'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.politico.com/blogs/politico-press/2019/02/20/politico-announcescollaboration-with-dell-technologies-at-sxsw-2019-will-serve-as-a-media-partner-forthe-experience-1176114&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIFygAMAE&usg=AOvVaw3IKsvc3qWZyDZEJslS3TTw'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://cio.com.br/28-poderosos-e-empolgantes-experimentos-com-iot/&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIGigAMAI&usg=AOvVaw2RWn1DMi6hqkGXGkO6bCWK'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.zacks.com/stock/news/355239/should-value-investors-buy-dell-technologies-dell-stock&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIHSgAMAM&usg=AOvVaw1XcbgosgE2jPqgrQ0SMaZq'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=http://www.stockmarketstop.com/2019/02/dell-technologies-inc-dell-asylum-for-profit-seeking-stock-2/&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIICgAMAQ&usg=AOvVaw2XZ8UCkqxjTJ6WaJyMGz5m'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.finmercury.com/2019/02/22/mannkind-corporation-mnkd-and-dell-technologies-inc-dell-rally-stuck-in-the-chimney/&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIIygAMAU&usg=AOvVaw0DVwPowuMFGmYLnZ08Rq-t'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://hollandreview.com/2019/02/22/bull-bear-rating-at-2-1863768-for-dell-technologies-inc-dell/&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIJigAMAY&usg=AOvVaw3061dO616tkkkgs9Rnce1y'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.zacks.com/stock/news/355273/has-dell-technologies-dell-outpaced-other-computer-and-technology-stocks-this-year&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIKCgAMAc&usg=AOvVaw35joKsCFgzAfq4iacom6Kp'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.crn.com/news/security/dell-technologies-looking-to-sell-off-secureworks-report&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIIKygAMAg&usg=AOvVaw3LlHK7X_fO-AL1YSM-pL2B'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.bloomberg.com/news/articles/2019-02-04/elliott-management-increases-passive-stake-in-dell-technologies&sa=U&ved=0ahUKEwjWo5SdwtDgAhX8HLkGHatRB6YQqQIILigAMAk&usg=AOvVaw01DYNGBfiwX4cnVIlfyQJY'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/produto/138970-sony-troca-linha-xz-ultra-premium-xperia-1-novos-intermediarios.htm&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIFCgAMAA&usg=AOvVaw22U6GJt9bkZUSRJyqmatdv'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.eurogamer.pt/articles/2019-02-22-sony-continua-a-investir-na-retro-compatibilidade&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIHSgAMAE&usg=AOvVaw2qmZ27ymFMaF-xoP8zowhW'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/smartphone/sony-fecha-parceria-com-fabricante-de-lentes-light-para-smartphone-multicamera-133327/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIJigAMAI&usg=AOvVaw1pcAKMBNxO090MOun_9_2X'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.gamereactor.pt/noticias/414783/Sony%2Be%2BMicrosoft%2Breagem%2Ba%2Breforma%2Bde%2BReggie/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIILCgAMAM&usg=AOvVaw26XYPCbYDl7InjlWiFoO6T'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tecmundo.com.br/dispositivos-moveis/138837-sony-brilhar-mwc-anuncio-xperia-xz4-outros-dispositivos.htm&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIILygAMAQ&usg=AOvVaw1ZgXpqtPemt5u1jFdSutaX'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tudoemtecnologia.com/sony-xperia-xa2-e-xa2-ultra-comecam-a-receber-android-pie-mas-nao-atualize-ainda/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIMigAMAU&usg=AOvVaw2qL7fgRMfSL4EdWYpptJ1E'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.musicjournal.com.br/ferrugem-empresaria-que-fecha-seu-primeiro-artista-e-fecha-contrato-com-a-sony/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIOCgAMAY&usg=AOvVaw03a2gWsmO5sauSPfTje7V4'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.oficinadanet.com.br/sony/24929-sony-deve-lancar-relogio-inspirado-em-playstation&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIOygAMAc&usg=AOvVaw02e5g_sOUBLDQHxaIuuynF'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://computerworld.com.br/2019/02/22/sony-music-realiza-hackathon-para-fomentar-mulheres-na-industria-da-musica/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIIQigAMAg&usg=AOvVaw3C7YlMcz5kJE2YpP2tPp7F'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.showmetech.com.br/review-fones-de-ouvido-sony-wh-1000xm3/&sa=U&ved=0ahUKEwjl06SdwtDgAhWMIrkGHeNEDiQQqQIISCgAMAk&usg=AOvVaw2q-7ZBSmXUSc0FCeY8uwlD'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.maistecnologia.com/lumix-dc-tz95-a-nova-camera-point-and-shoot-da-panasonic/&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIFCgAMAA&usg=AOvVaw10vz5iqGj5GrIXabWza0G-'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.promoview.com.br/esportes/panasonic-homenageia-o-nadador-daniel-dias.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIFygAMAE&usg=AOvVaw2B6efn9oFy3c4eBwe00HXE'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/tech/noticias/n138370/panasonic-detalha-blu-ray-players-ub150-ub450.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIHCgAMAI&usg=AOvVaw30ql98iiScDOoQ4LHQ9KjY'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/novos-produtos/noticias/n138294/panasonic-lumix-tz95-lumix-fz1000ii-italia.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIHygAMAM&usg=AOvVaw3BhEFJXRDkBZpANdSYyg4Q'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=http://www.resumofotografico.com/2019/02/panasonic-lanca-nova-camera-compacta-lumix-dc-tz95.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIIigAMAQ&usg=AOvVaw1dCB7_bI9dMA9s79kBbmZ3'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://adnews.com.br/midia/dia-do-esportista-19-02-panasonic-homenageia-nadador-daniel-dias/&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIJSgAMAU&usg=AOvVaw1u2dvsuqWrmTxHTA1I5OmY'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.tudocelular.com/novos-produtos/noticias/n138272/panasonic-serie-2019-tv-suporte-dolby-atomos.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIKCgAMAY&usg=AOvVaw0bvTVxj8Y3Hapq_alm_9MN'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=http://www.resumofotografico.com/2019/02/panasonic-lanca-atualizacao-da-camera-lumix-fz1000.html&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIKygAMAc&usg=AOvVaw2WI-sM_38KmaJ8xznGHyc7'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.portal-energia.com/painel-solar-fotovoltaico-carros-eletricos-panasonic-145041/&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIILigAMAg&usg=AOvVaw1T2hsRY-Sw11hBVT2WciBf'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://jornaldocarro.estadao.com.br/carros/toyota-e-panasonic-se-juntam-para-fazer-baterias-de-eletricos/&sa=U&ved=0ahUKEwj6gredwtDgAhXFEbkGHf-QCikQqQIIMSgAMAk&usg=AOvVaw0vtOjzQgPe1UewKN7gK1ZV'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://macmagazine.uol.com.br/2019/02/22/intel-acredita-que-apple-fara-transicao-para-chips-proprios-ja-em-2020/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIFCgAMAA&usg=AOvVaw0bapC-sHxWI6fS6TNadxra'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://vs.com.br/artigo/csgo-time-das-lindas-jogara-no-grupo-a-na-intel-challenge-katowice-2019&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIGigAMAE&usg=AOvVaw1IXlWIwhOAIcAY7Z5pH_41'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/hardware/intel-lanca-pentium-gold-g5620-com-clock-de-4-ghz-133375/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIHygAMAI&usg=AOvVaw3kqAs9ouC_AmoJ-e7SFnKb'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://adrenaline.uol.com.br/2019/02/21/58137/a-intel-esta-coletando-feedback-da-comunidade-para-desenvolver-uma-odyssey-melhor-/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIJygAMAM&usg=AOvVaw3Re--hEV0pusVg3vsii-jy'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://canaltech.com.br/hardware/intel-vende-processador-i9-por-mais-de-r-8500-em-leilao-secreto-132843/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIILSgAMAQ&usg=AOvVaw38oX_7C5ciiXSCR8kwSMqD'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://www.diolinux.com.br/2019/02/intel-declara-que-vai-dar-suporte-linux-gpus-dedicadas.html&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIMCgAMAU&usg=AOvVaw1VlAEX7PtcB2Pxzdwg0hHg'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://computerworld.com.br/2019/02/14/intel-e-ericsson-unem-solucoes-para-fortalecer-5g/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIMygAMAY&usg=AOvVaw2OctZ4rqjvBPBiZSH6trX0'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://adrenaline.uol.com.br/2019/02/17/58105/intel-posta-lista-completa-com-specs-da-sua-serie-h-de-processadores-da-9-geracao/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIINigAMAc&usg=AOvVaw0-_9SwnuwNuCTbHJm0xoBN'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=https://exame.abril.com.br/tecnologia/estagnada-nos-processadores-intel-mantem-faturamento-em-alta/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIOygAMAg&usg=AOvVaw1FEp8Mjx9Ku7phNnoPH_Bf'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                No connection adapters were found for '/url?q=http://tiinside.com.br/tiinside/15/02/2019/intel-vai-fornecer-tecnologia-para-a-nova-rede-baseada-na-nuvem-da-japonesa-rakuten/&sa=U&ved=0ahUKEwjM-8idwtDgAhVlI7kGHS_qDOsQqQIIQCgAMAk&usg=AOvVaw3BXB1bZx5xrWqWU675d0YQ'
+
+------- 22-02-2019 20:%i:1550878929 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.terra.com.br/noticias/tecnologia/lg-electronics-tem-forte-queda-no-lucro-do-4-tri,81ff07245ed9db9a2a6d9284d36684ad797rc4x7.html&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIFCgAMAA&usg=AOvVaw2KDIgijeXp842Rnok3s-2y'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://androidgeek.pt/fwd-mwc-lg-cria-novas-series-q-e-k-que-impressionam&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIFygAMAE&usg=AOvVaw3SoPyvj23GDWz12kMRghAz'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.engage.it/aziende/lg-electronics-intervista-zearo/178063&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIGigAMAI&usg=AOvVaw1RNJqg7LM___19V3lDdAlx'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.theverge.com/2019/2/17/18228395/lg-wont-launch-folding-phone-mwc-2019&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIHygAMAM&usg=AOvVaw1dRgAioxPzHHkZhpq4wkIh'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.prnewswire.com/news-releases/lg-expands-roster-of-smart-kitchen-partnerships-with-unique-tovala-integration-300796954.html&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIKCgAMAQ&usg=AOvVaw0s8oABRC4Bu7ukTif7fis6'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.zdnet.com/article/lg-unveils-mid-tier-q-and-k-series-smartphones-ahead-of-g8-thinq-launch/&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIKygAMAU&usg=AOvVaw1SzcFth5bYzDjM3ESvGh9Y'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.channelnews.com.au/lg-ramps-up-voice-enabled-appliances/&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIMigAMAY&usg=AOvVaw2HhH8q0LYwLhx7FWYR_82s'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.bitmat.it/blog/news/83064/mico-migliora-laccoglienza-ai-visitatori-con-i-display-lg-electronics&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIINygAMAc&usg=AOvVaw1bkHh_1oFKUyo4gkcauIMO'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.achrnews.com/articles/140727-lg-electronics-listens-to-hvac-contractor-feedback-delivers-comfort-with-multi-v-5&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIOigAMAg&usg=AOvVaw2BFv67zUkeBCL4ujLvTfXQ'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.achrnews.com/articles/140703-lg-electronics-usa-air-conditioning-technologies-baker-distributing-co-announce-nascar-sponsorship&sa=U&ved=0ahUKEwjxvNudwtDgAhVmEbkGHa-1DTQQqQIIPSgAMAk&usg=AOvVaw34BzceReplBkIdbosnZcd7'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.japantimes.co.jp/news/2019/02/22/business/corporate-business/rakuten-chinas-jd-com-tie-unmanned-delivery-japan/&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIFCgAMAA&usg=AOvVaw1yj0HAHZGYsS0frhyesci0'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://cio.com.br/28-poderosos-e-empolgantes-experimentos-com-iot/&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIHSgAMAE&usg=AOvVaw2AHY4mbDxosSRr_HiD_7N2'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://finance.yahoo.com/news/jd-com-inc-jd-gains-225010126.html&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIICgAMAI&usg=AOvVaw12yUZhJa0VTR3e3vlD_aBj'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.channelnewsasia.com/news/business/china-s-jd-com-to-lay-off-10-of-senior-executives-this-year-11258784&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIIygAMAM&usg=AOvVaw2U8F4rYdWnbGNZUaRjr631'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.thedrum.com/news/2019/02/20/jdcom-sheds-10-top-management-due-chinas-economic-uncertainty&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIKCgAMAQ&usg=AOvVaw1ge8UlWPtKkAMGqPh1OaOq'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://cryptoamber.com/2019/02/22/jd-com-inc-jd-the-stock-you-should-be-taking-seriously/&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIILSgAMAU&usg=AOvVaw36L30s7ii6fRVIPWv2LblE'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://investorplace.com/2019/02/jd-com-stock-long-term-boost-indonesia-nimg/&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIMCgAMAY&usg=AOvVaw0kffeahf6xhFTFglFsq_l2'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://iwatchmarkets.com/2019/02/22/jd-com-inc-jd-stock-should-you-be-paying-attention/&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIMygAMAc&usg=AOvVaw1lpc-P5LUv-UGiJMob5ThQ'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://asia.nikkei.com/Asia300/JD.com-cuts-10-of-management-to-speed-decision-making&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIINigAMAg&usg=AOvVaw3ootPCHoHS3vVztyKqa6V7'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://seekingalpha.com/article/4242022-jd-com-priced-podcast-transcript&sa=U&ved=0ahUKEwi79O6dwtDgAhVFJLkGHeLZBxYQqQIIOSgAMAk&usg=AOvVaw3qeoLgU9d1qkq5PdwQZlQl'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://pcworld.com.br/hp-e-kalunga-lancam-servico-de-entrega-automatica-de-cartuchos-e-toners/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIFCgAMAA&usg=AOvVaw1HuHNfyeFdTU_jFq5ASjgA'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://globenewswire.com/news-release/2019/02/21/1739398/0/en/HP-Advances-IT-Management-Solutions-with-Growing-HP-Device-as-a-Service-Offering.html&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIFygAMAE&usg=AOvVaw0W-5vwqzzvleRITPLVtcYn'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.rnsdaily.com/2019/02/22/hp-inc-hpqs-run-may-be-ending/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIGigAMAI&usg=AOvVaw0-0p61vdBUyXbZr72Nlc2o'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.bizjournals.com/boston/news/2019/02/21/longtime-hp-exec-joining-ge-board.html&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIIygAMAM&usg=AOvVaw0JJD7aVrE8E_OpwK976gNj'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.postanalyst.com/2019/02/22/there-is-enough-gas-left-in-the-tank-hp-inc-hpq-pan-american-silver-corp-paas/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIJigAMAQ&usg=AOvVaw2EN4Diq8lgyjomsIjY5mMA'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://monreport.com/2019/02/22/traders-must-not-feel-shy-to-buy-these-stocks-hp-inc-hpq-turquoise-hill-resources-ltd-trq/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIKSgAMAU&usg=AOvVaw0HrwDOcMr5OMs7vl41YBNJ'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://www.zacks.com/stock/news/356606/hp-hpq-to-post-q1-earnings-whats-in-store-for-the-stock&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIILCgAMAY&usg=AOvVaw2KmQlKiEjYPae58uNBDxkI'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://nysenewstoday.com/2019/02/22/stock-analysis-hp-inc-nyse-hpq-3/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIILygAMAc&usg=AOvVaw2KOJZZX2mGpGoTpdmHv6Mf'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://globenewswire.com/news-release/2019/02/11/1716645/0/en/HP-Inc-to-Announce-First-Quarter-Fiscal-2019-Earnings-on-February-27-2019.html&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIIMSgAMAg&usg=AOvVaw12jpBrXE25pC4wmNWUMBjF'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                No connection adapters were found for '/url?q=https://finmercury.com/2019/02/22/is-it-crazy-to-buy-kinder-morgan-inc-kmi-and-hp-inc-hpq/&sa=U&ved=0ahUKEwiM64CewtDgAhVAHbkGHdpSB1gQqQIINCgAMAk&usg=AOvVaw037kfjMUxKSx9FSHifYe1-'
+
+------- 22-02-2019 20:%i:1550878930 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550879214 -------
+                                HTTPSConnectionPool(host='stocknews.com', port=443): Max retries exceeded with url: /news/googl-report-google-googl-set-to-launch-a-netflix-for-games/&sa=U&ved=0ahUKEwibyeDmwtDgAhXVH7kGHWD5ApwQqQIIHygAMAI&usg=AOvVaw3JJGb-dBJ-v_efAj0r74d7 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f7730ea7d30>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 22-02-2019 20:%i:1550879214 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550879433 -------
+                                HTTPSConnectionPool(host='adnews.com.br', port=443): Max retries exceeded with url: /midia/dia-do-esportista-19-02-panasonic-homenageia-nadador-daniel-dias/&sa=U&ved=0ahUKEwiDzeXMw9DgAhUuIbkGHYDBCaoQqQIIJSgAMAU&usg=AOvVaw2DeG171LfoYuKFvQXQEmcw (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f77310c6940>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+------- 22-02-2019 20:%i:1550879433 -------
+                                'NoneType' object has no attribute 'text'
+
+------- 22-02-2019 20:%i:1550879506 -------
+                                Exceeded 30 redirects.
+
+------- 22-02-2019 20:%i:1550879506 -------
+                                'NoneType' object has no attribute 'text'
