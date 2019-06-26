@@ -5,9 +5,10 @@ from invest_back_end.shares import Shares
 from pandas.tseries.offsets import BDay
 import datetime
 
+from invest_back_end.models import Profile
 
 class MainGraphView(APIView):
-    '''Simple class to return the data of the user'''
+    '''Simple class to return the data of the stock'''
     permission_classes = (IsAuthenticated,)
 
     # Receives the request and returns the json with the message
@@ -38,6 +39,19 @@ class MainGraphView(APIView):
         else:
             content = {
                 'resp': 'Nenhuma ação informada!'
+            }
+
+        return Response(content)
+
+class MainDataView(APIView):
+    '''Simple class to return the data of the user'''
+    permission_classes = (IsAuthenticated,)
+
+    # Receives the request and returns the json with the message
+    def get(self, request):
+
+        content = {
+                'resp': request.META.get('Authorization')
             }
 
         return Response(content)
