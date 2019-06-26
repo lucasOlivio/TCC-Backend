@@ -1,2 +1,4 @@
-# TCC
-Repositório para controle e versão do trabalho de curso de ciências da computação - UNIP 2019
+# Website news scrapper
+
+Class to search news in google about some given subject and save each html page in local files.
+
