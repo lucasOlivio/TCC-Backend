@@ -43,15 +43,15 @@ class MainGraphView(APIView):
 
         return Response(content)
 
-# class MainDataView(APIView):
-#     '''Simple class to return the data of the user'''
-#     permission_classes = (IsAuthenticated,)
+class MainDataView(APIView):
+    '''Simple class to return the data of the user'''
+    permission_classes = (IsAuthenticated,)
 
-#     # Receives the request and returns the json with the message
-#     def get(self, request):
+    # Receives the request and returns the json with the message
+    def get(self, request):
 
-#         content = {
-#                 'resp': request
-#             }
+        content = {
+                'resp': request
+            }
 
-#         return Response(content)
+        return Response(content)
