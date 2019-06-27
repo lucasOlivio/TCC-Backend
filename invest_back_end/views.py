@@ -50,8 +50,4 @@ class MainDataView(APIView):
     # Receives the request and returns the json with the message
     def get(self, request):
 
-        content = {
-                'resp': request
-            }
-
-        return Response(content)
+        return Response(request)
