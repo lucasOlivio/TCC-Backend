@@ -1,11 +1,17 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
+
+from rest_framework.authtoken.models import Token
+
 from invest_back_end.shares import Shares
 from pandas.tseries.offsets import BDay
 import datetime
+import json
 
-from invest_back_end.models import Profile
+from django.contrib.auth.models import User
+from invest_back_end.models import Profile, update_profile
+from django.core import serializers
 
 class MainGraphView(APIView):
     '''Simple class to return the data of the stock'''
@@ -14,6 +20,9 @@ class MainGraphView(APIView):
     # Receives the request and returns the json with the message
     def get(self, request):
 
+        content = {
+                'resp': 'ok'
+            }
         if request.GET.get('symbol')!='':
             today = datetime.datetime.now()
             week_ago = (today - BDay(7)).date()
@@ -48,6 +57,26 @@ class MainDataView(APIView):
     permission_classes = (IsAuthenticated,)
 
     # Receives the request and returns the json with the message
-    def get(self, request):
+    def post(self, request):
 
-        return Response(request)
+        token = request.META['HTTP_AUTHORIZATION'].replace('Token ','')
+
+        if request.POST['method'] == 'load':
+
+            content = User.objects.filter(auth_token__key=token).values('username','first_name')[0]
+            content.update(Profile.objects.filter(user__auth_token__key=token).values('gender','age')[0])
+
+            return Response(content)
+        
+        elif request.POST['method'] == 'save':
+            update_profile(
+                token,
+                request.POST['username'],
+                request.POST['first_name'],
+                request.POST['gender'],
+                request.POST['age'],
+            )
+
+            return Response({'resp':True})
+        else:
+            return Response({'resp':'No method '+request.POST['method']})

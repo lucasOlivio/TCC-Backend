@@ -17,11 +17,11 @@ import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.environ.get('SECRET_KEY', '5!2p_q-th7u985!_80t=v+55eqp0nymx@j-qp5dege6_mhf@9f')
-DEBUG = False
+DEBUG = True
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'blooming-cliffs-28339.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', '10.0.2.2', 'localhost', 'blooming-cliffs-28339.herokuapp.com']
 
 # Application definition
 
