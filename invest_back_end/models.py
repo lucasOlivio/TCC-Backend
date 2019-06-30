@@ -5,7 +5,7 @@ from django.db.models.signals import post_save
 
 # Create new table for the extra info about the user
 class Profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     gender = models.TextField(max_length=15, blank=True)
     age = models.IntegerField(null=True)
 
@@ -26,3 +26,20 @@ def update_profile(token, username, first_name, gender, age):
     user.profile.gender = gender
     user.profile.age = age
     user.save()
+
+# Table for the list of graph comparisons of the user
+class GraphComp(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    index = models.IntegerField()
+    stock = models.CharField(max_length=5)
+    description = models.CharField(max_length=30)
+    color = models.IntegerField()
+
+def save_graphcomp(token, index, stock, description, color):
+    user = User.objects.get(auth_token__key=token)
+
+    graphcomp = GraphComp(user=user, index=index, stock=stock, description=description, color=color)
+    graphcomp.save()
+
+def del_graphcomp(token, index, stock):
+    graphcomp = GraphComp.objects.get(user__auth_token__key=token, index=index, stock=stock).delete()
