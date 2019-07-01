@@ -42,4 +42,8 @@ def save_graphcomp(token, index, stock, description, color):
     graphcomp.save()
 
 def del_graphcomp(token, index, stock):
-    graphcomp = GraphComp.objects.get(user__auth_token__key=token, index=index, stock=stock).delete()
+
+    if stock!='':
+        graphcomp = GraphComp.objects.filter(user__auth_token__key=token, index=index, stock=stock).delete()
+    else:
+        graphcomp = GraphComp.objects.filter(user__auth_token__key=token, index=index).delete()
