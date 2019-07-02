@@ -10,7 +10,7 @@ import datetime
 import json
 
 from django.contrib.auth.models import User
-from invest_back_end.models import Profile, update_profile, GraphComp, save_graphcomp, del_graphcomp
+from invest_back_end.models import Profile, update_profile, GraphComp, save_graphcomp, del_graphcomp, StockDetail, save_stockdetail, del_stockdetail
 from django.core import serializers
 
 class MainGraphView(APIView):
@@ -112,6 +112,41 @@ class CompGraphView(APIView):
             del_graphcomp(
                 token, 
                 request.POST['index'],
+                request.POST['stock'],
+            )
+
+            return Response({'resp':1})
+        else:
+            return Response({'resp':'No method '+request.POST['method']})
+
+class StockDetailView(APIView):
+    '''Class to manage the list of the users stock details'''
+    permission_classes = (IsAuthenticated,)
+
+    # Receives the request and returns the json with the message
+    def post(self, request):
+
+        token = request.META['HTTP_AUTHORIZATION'].replace('Token ','')
+
+        if request.POST['method'] == 'load':
+
+            content = StockDetail.objects.filter(user__auth_token__key=token, ).values('stock','description').order_by('stock')
+
+            content_dict = { i : content[i] for i in range(0, len(content) ) }
+
+            return Response(content_dict)
+        
+        elif request.POST['method'] == 'save':
+            save_stockdetail(
+                token, 
+                request.POST['stock'], 
+                request.POST['description'],
+            )
+
+            return Response({'resp':1})
+        elif request.POST['method'] == 'del':
+            del_stockdetail(
+                token, 
                 request.POST['stock'],
             )
 
