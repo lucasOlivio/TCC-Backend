@@ -47,3 +47,19 @@ def del_graphcomp(token, index, stock):
         graphcomp = GraphComp.objects.filter(user__auth_token__key=token, index=index, stock=stock).delete()
     else:
         graphcomp = GraphComp.objects.filter(user__auth_token__key=token, index=index).delete()
+
+# Table for the list of stock details of the user
+class StockDetail(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    stock = models.CharField(max_length=5)
+    description = models.CharField(max_length=30)
+
+def save_stockdetail(token, stock, description):
+    user = User.objects.get(auth_token__key=token)
+
+    stockdetail = StockDetail(user=user, stock=stock, description=description)
+    stockdetail.save()
+
+def del_stockdetail(token, stock):
+
+    stockdetail = StockDetail.objects.filter(user__auth_token__key=token, stock=stock).delete()
