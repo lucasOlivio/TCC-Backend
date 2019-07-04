@@ -10,6 +10,6 @@ urlpatterns = [
     path('profile-data/', views.MainDataView.as_view(), name='profile_data'),
     path('graphcomp-data/', views.CompGraphView.as_view(), name='graphcomp_data'),
     path('stockdetail-data/', views.StockDetailView.as_view(), name='stockdetail_data'),
-    path('main-graph/', views.MainGraphView.as_view(), name='main_graph'),
+    path('main-graph/', views.MainStockDataView.as_view(), name='main_graph'),
     path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
 ]
