@@ -1,36 +1,42 @@
-from iexfinance.stocks import Stock
-from datetime import datetime
-from iexfinance.stocks import get_historical_data
+import requests
+
+# location given here 
+location = "Brazil, Ribeirão Preto"
+  
+# defining a params dict for the parameters to be sent to the API 
+PARAMS = {'address':location} 
 
 class Shares():
     '''Class for stock quote searches and analyzing data'''
 
     def __init__(self, symbol):
-        #stock_market: in wich market will be the search ("IBOV",)
-        self.symbol = symbol
+        # api-endpoint 
+        self.URL = "https://api.worldtradingdata.com/api/v1/history?symbol="+symbol+"&sort=newest&api_token=DuC3chbLDC5AbPkgtcVo7vkEEW6pkDixHARv3X5oIAltDgo76wq8s9f8V4yc"
     
-    def getStock(self, period):
+    def getStockDetails(self, date):
 
-        dt_start = [ int(x) for x in period[0].split('/') ]
+        URL = self.URL+"&date_from="+date+"&date_to="+date
+
+        # sending get request and saving the response as response object 
+        r = requests.get(url = URL, params = PARAMS) 
         
-        dt_end = [ int(x) for x in period[1].split('/') ]
+        # extracting data in json format 
+        data = r.json()
 
-        start = datetime(dt_start[2], dt_start[0], dt_start[1]).strftime('%Y-%m-%d')
-
-        end = datetime(dt_end[2], dt_end[0], dt_end[1]).strftime('%Y-%m-%d')
-
-        df = get_historical_data(self.symbol,start, end, output_format='json', token="sk_8010a6c7ada647499af72f12ec9da15e")
-
-        return end
+        return data['history'][date]
     
     def getClosing(self, period):
-        start = period[0]
+        URL = self.URL+"&date_from="+str(period[0])+"&date_to="+str(period[1])
 
-        end = period[1]
+        # sending get request and saving the response as response object 
+        r = requests.get(url = URL, params = PARAMS) 
         
-        df = get_historical_data(self.symbol,start, end, output_format='json', token="sk_8010a6c7ada647499af72f12ec9da15e")
+        # extracting data in json format 
+        data = r.json()
 
-        return [df[df[key.upper()] for key in self.symbol]]
+        closing = [data['history'][day]['close'] for day in data['history']]
+
+        return closing
 
     def setMarket(self, stock_market):
         self.stock_market = stock_market

@@ -186,7 +186,7 @@ class StockDetailView(APIView):
         elif request.POST['method'] == 'details':
             share = Shares(request.POST['symbol'])
 
-            stockDetail = share.getStock([request.POST['date'], request.POST['date']])
+            stockDetail = share.getStockDetails(request.POST['date'])
 
             return Response(stockDetail)
         else:
