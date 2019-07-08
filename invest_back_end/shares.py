@@ -27,10 +27,10 @@ class Shares():
         start = period[0]
 
         end = period[1]
+        
+        df = get_historical_data(self.symbol,start, end, output_format='json', token="sk_8010a6c7ada647499af72f12ec9da15e")
 
-        df = get_historical_data(self.symbol,start, end, output_format='pandas', token="sk_8010a6c7ada647499af72f12ec9da15e")
-
-        return df['close']
+        return [df[df[key.upper()] for key in self.symbol]]
 
     def setMarket(self, stock_market):
         self.stock_market = stock_market

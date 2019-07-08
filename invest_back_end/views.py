@@ -13,42 +13,73 @@ from django.contrib.auth.models import User
 from invest_back_end.models import Profile, update_profile, GraphComp, save_graphcomp, del_graphcomp, StockDetail, save_stockdetail, del_stockdetail
 from django.core import serializers
 
-class MainGraphView(APIView):
+class MainStockDataView(APIView):
     '''Simple class to return the data of the stock'''
     permission_classes = (IsAuthenticated,)
 
     # Receives the request and returns the json with the message
-    def get(self, request):
+    def post(self, request):
 
         content = {
                 'resp': 'ok'
             }
-        if request.GET.get('symbol')!='':
-            today = datetime.datetime.now()
-            week_ago = (today - BDay(7)).date()
-            month_ago = (today - datetime.timedelta(days=31)).date()
-            year_ago = (today - datetime.timedelta(days=365)).date()
+        
+        if request.POST['method'] == 'mainGraph':
+            if request.POST.get('symbol')!='':
+                today = datetime.datetime.now()
+                week_ago = (today - BDay(7)).date()
+                month_ago = (today - datetime.timedelta(days=31)).date()
+                year_ago = (today - datetime.timedelta(days=365)).date()
 
-            share = Shares(request.GET['symbol'])
+                share = Shares(request.POST['symbol'])
 
-            stockClose_week = share.getClosing([week_ago, today])
-            stockClose_month = share.getClosing([month_ago, today])
-            stockClose_year = share.getClosing([year_ago, today])
+                stockClose_week = share.getClosing([week_ago, today])
+                stockClose_month = share.getClosing([month_ago, today])
+                stockClose_year = share.getClosing([year_ago, today])
 
-            resp = True
-            data = [
-                stockClose_week,
-                stockClose_month,
-                stockClose_year,
-            ]
-            content = {
-                'resp': resp,
-                'data':data
-            }
+                resp = True
+                data = [
+                    stockClose_week,
+                    stockClose_month,
+                    stockClose_year,
+                ]
+                content = {
+                    'resp': resp,
+                    'data':data
+                }
+            else:
+                content = {
+                    'resp': 'Nenhuma ação informada!'
+                }
+        elif request.POST['method'] == 'compGraph':
+            if request.POST.get('symbol')!='':
+                today = datetime.datetime.now()
+                one_year = (today - datetime.timedelta(days=365)).date()
+                two_year = (today - datetime.timedelta(days=730)).date()
+                three_year = (today - datetime.timedelta(days=1095)).date()
+
+                share = Shares(request.POST['symbol'].split(','))
+
+                stockClose_1year = share.getClosing([one_year, today])
+                stockClose_2year = share.getClosing([two_year, today])
+                stockClose_3year = share.getClosing([three_year, today])
+
+                resp = True
+                data = [
+                    stockClose_1year,
+                    stockClose_2year,
+                    stockClose_3year,
+                ]
+                content = {
+                    'resp': resp,
+                    'data':data
+                }
+            else:
+                content = {
+                    'resp': 'Nenhuma ação informada!'
+                }
         else:
-            content = {
-                'resp': 'Nenhuma ação informada!'
-            }
+            return Response({'resp':'No method '+request.POST['method']})
 
         return Response(content)
 
