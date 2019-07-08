@@ -151,5 +151,12 @@ class StockDetailView(APIView):
             )
 
             return Response({'resp':1})
+        
+        elif request.POST['method'] == 'details':
+            share = Shares(request.POST['symbol'])
+
+            stockDetail = share.getStock([request.POST['date'], request.POST['date']])
+
+            return Response(stockDetail)
         else:
             return Response({'resp':'No method '+request.POST['method']})
