@@ -51,33 +51,6 @@ class MainStockDataView(APIView):
                 content = {
                     'resp': 'Nenhuma ação informada!'
                 }
-        elif request.POST['method'] == 'compGraph':
-            if request.POST.get('symbol')!='':
-                today = datetime.datetime.now()
-                one_year = (today - datetime.timedelta(days=365)).date()
-                two_year = (today - datetime.timedelta(days=730)).date()
-                three_year = (today - datetime.timedelta(days=1095)).date()
-
-                share = Shares(request.POST['symbol'].split(','))
-
-                stockClose_1year = share.getClosing([one_year, today])
-                stockClose_2year = share.getClosing([two_year, today])
-                stockClose_3year = share.getClosing([three_year, today])
-
-                resp = True
-                data = [
-                    stockClose_1year,
-                    stockClose_2year,
-                    stockClose_3year,
-                ]
-                content = {
-                    'resp': resp,
-                    'data':data
-                }
-            else:
-                content = {
-                    'resp': 'Nenhuma ação informada!'
-                }
         else:
             return Response({'resp':'No method '+request.POST['method']})
 
@@ -147,6 +120,39 @@ class CompGraphView(APIView):
             )
 
             return Response({'resp':1})
+        elif request.POST['method'] == 'compGraph':
+            if request.POST.get('symbol')!='':
+                data = []
+                symbols = request.POST['symbol'].split(',')
+
+                for symbol in symbols:
+                    today = datetime.datetime.now()
+                    one_year = (today - datetime.timedelta(days=365)).date()
+                    two_year = (today - datetime.timedelta(days=730)).date()
+                    three_year = (today - datetime.timedelta(days=1095)).date()
+
+                    share = Shares(symbol)
+
+                    stockClose_1year = share.getVariation([one_year, today])
+                    stockClose_2year = share.getVariation([two_year, today])
+                    stockClose_3year = share.getVariation([three_year, today])
+
+                    resp = True
+                    data.append([
+                        stockClose_1year,
+                        stockClose_2year,
+                        stockClose_3year,
+                    ])
+
+                content = {
+                    'resp': resp,
+                    'data':data
+                }
+            else:
+                content = {
+                    'resp': 'Nenhuma ação informada!'
+                }
+            return Response(content)
         else:
             return Response({'resp':'No method '+request.POST['method']})
 
