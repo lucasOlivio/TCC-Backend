@@ -2,6 +2,7 @@ import requests
 import numpy as np
 import time
 from datetime import datetime
+import re
 
 # location given here 
 location = "Brazil, Ribeirão Preto"
@@ -12,13 +13,14 @@ PARAMS = {'address':location}
 class Shares():
     '''Class for stock quote searches and analyzing data'''
 
-    def __init__(self, symbol):
+    def __init__(self, symbol, url = 0):
+        self.url = url
         # api-endpoint 
-        self.URL = "https://api.worldtradingdata.com/api/v1/history?symbol="+symbol+"&sort=oldest&api_token=DuC3chbLDC5AbPkgtcVo7vkEEW6pkDixHARv3X5oIAltDgo76wq8s9f8V4yc"
+        self.URLs = ["https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+symbol+"&apikey=LFXEILQ0E30J3BZO","https://api.worldtradingdata.com/api/v1/history?symbol="+symbol+"&sort=oldest&api_token=DuC3chbLDC5AbPkgtcVo7vkEEW6pkDixHARv3X5oIAltDgo76wq8s9f8V4yc"]
     
     def getStockDetails(self, date):
 
-        URL = self.URL+"&date_from="+date+"&date_to="+date
+        URL = self.URLs[self.url]+("&date_from="+date+"&date_to="+date if self.url==0 else "")
 
         # sending get request and saving the response as response object 
         r = requests.get(url = URL, params = PARAMS) 
@@ -26,10 +28,15 @@ class Shares():
         # extracting data in json format 
         data = r.json()
 
-        return data['history'][date]
+        # normalizing dict keys
+        if self.url==0:
+            send = { re.sub('^[0-9]. +','',key) : val for key, val in data['Time Series (Daily)']['-'.join(reversed(date.split('/')))].items()}
+        else:
+            send = data['history']['-'.join(reversed(date.split('/')))]
+        return send
     
     def getClosing(self, period):
-        URL = self.URL+"&date_from="+str(period[0])+"&date_to="+str(period[1])
+        URL = self.URLs[self.url]+"&date_from="+str(period[0])+"&date_to="+str(period[1])
 
         # sending get request and saving the response as response object 
         r = requests.get(url = URL, params = PARAMS) 
@@ -42,7 +49,7 @@ class Shares():
         return closing
     
     def getVariation(self, period):
-        URL = self.URL+"&date_from="+str(period[0])+"&date_to="+str(period[1])
+        URL = self.URLs[self.url]+"&date_from="+str(period[0])+"&date_to="+str(period[1])
 
         # sending get request and saving the response as response object 
         r = requests.get(url = URL, params = PARAMS) 

@@ -31,7 +31,7 @@ class MainStockDataView(APIView):
                 month_ago = (today - datetime.timedelta(days=31)).date()
                 year_ago = (today - datetime.timedelta(days=365)).date()
 
-                share = Shares(request.POST['symbol'])
+                share = Shares(request.POST['symbol'], 1)
 
                 stockClose_week = share.getClosing([week_ago, today])
                 stockClose_month = share.getClosing([month_ago, today])
@@ -131,7 +131,7 @@ class CompGraphView(APIView):
                     two_year = (today - datetime.timedelta(days=730)).date()
                     three_year = (today - datetime.timedelta(days=1095)).date()
 
-                    share = Shares(symbol)
+                    share = Shares(symbol, 1)
 
                     stockClose_1year = share.getVariation([one_year, today])
                     stockClose_2year = share.getVariation([two_year, today])
