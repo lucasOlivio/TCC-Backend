@@ -1,8 +1,16 @@
 import requests
 import numpy as np
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import re
+import pandas as pd
+from selenium import webdriver
+import pickle
+from keras.layers.recurrent import LSTM
+from keras.models import Sequential
+from keras.layers.core import Dense, Dropout
+from keras import optimizers
+from keras.models import load_model
 
 # location given here 
 location = "Brazil, Ribeirão Preto"
@@ -13,8 +21,13 @@ PARAMS = {'address':location}
 class Shares():
     '''Class for stock quote searches and analyzing data'''
 
+    SECTORS = ['Energy','Basic Materials','Industrials','Consumer Cyclical','Consumer Defensive',
+           'Healthcare','Financial Services','Technology',
+           'Communication Services','Utilities','Real Estate']
+
     def __init__(self, symbol, url = 0):
         self.url = url
+        self.symbol = symbol
         # api-endpoint 
         self.URLs = ["https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+symbol+"&apikey=LFXEILQ0E30J3BZO","https://api.worldtradingdata.com/api/v1/history?symbol="+symbol+"&sort=oldest&api_token=DuC3chbLDC5AbPkgtcVo7vkEEW6pkDixHARv3X5oIAltDgo76wq8s9f8V4yc"]
     
@@ -32,7 +45,10 @@ class Shares():
         if self.url==0:
             send = { re.sub('^[0-9]. +','',key) : val for key, val in data['Time Series (Daily)']['-'.join(reversed(date.split('/')))].items()}
         else:
-            send = data['history']['-'.join(reversed(date.split('/')))]
+            try:
+                send = data['history']['-'.join(reversed(date.split('/')))]
+            except Exception as e:
+                send = False
         return send
     
     def getClosing(self, period):
@@ -44,7 +60,10 @@ class Shares():
         # extracting data in json format 
         data = r.json()
 
-        closing = [float(data['history'][day]['close']) for day in data['history']]
+        try:
+            closing = [float(data['history'][day]['close']) for day in data['history']]
+        except Exception as e:
+            closing = False
 
         return closing
     
@@ -57,11 +76,12 @@ class Shares():
         # extracting data in json format 
         data = r.json()
 
-        closing = np.array([[time.mktime(datetime.strptime(day, "%Y-%m-%d").timetuple()),float(data['history'][day]['close'])] for day in data['history']])
-        first_day = closing[0,1]
-        closing[:,1] = np.around((closing[:,1]/first_day)-1, 3)
+        try:
+            closing = np.array([[time.mktime(datetime.strptime(day, "%Y-%m-%d").timetuple()),float(data['history'][day]['close'])] for day in data['history']])
+            first_day = closing[0,1]
+            closing[:,1] = np.around((closing[:,1]/first_day)-1, 3)
+            resp = [closing, first_day]
+        except Exception as e:
+            resp = False
 
-        return [closing, first_day]
-
-    def setMarket(self, stock_market):
-        self.stock_market = stock_market
+        return resp

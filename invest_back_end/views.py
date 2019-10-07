@@ -37,7 +37,7 @@ class MainStockDataView(APIView):
                 stockClose_month = share.getClosing([month_ago, today])
                 stockClose_year = share.getClosing([year_ago, today])
 
-                resp = True
+                resp = (True if stockClose_week else stockClose_week)
                 data = [
                     stockClose_week,
                     stockClose_month,
@@ -103,15 +103,18 @@ class CompGraphView(APIView):
             return Response(content_dict)
         
         elif request.POST['method'] == 'save':
-            save_graphcomp(
-                token, 
-                request.POST['index'], 
-                request.POST['stock'], 
-                request.POST['description'],
-                request.POST['color'],
-            )
+            today = datetime.datetime.now()
+            yesterday = (today - BDay(1)).date()
+            share = Shares(request.POST['stock'], 1)
+            resp = share.getStockDetails(yesterday)
+            if resp:
+                save_stockdetail(
+                    token, 
+                    request.POST['stock'], 
+                    request.POST['description'],
+                )
 
-            return Response({'resp':1})
+            return Response({'resp':resp})
         elif request.POST['method'] == 'del':
             del_graphcomp(
                 token, 
@@ -137,7 +140,7 @@ class CompGraphView(APIView):
                     stockClose_2year = share.getVariation([two_year, today])
                     stockClose_3year = share.getVariation([three_year, today])
 
-                    resp = True
+                    resp = (True if stockClose_1year else stockClose_1year)
                     data.append([
                         stockClose_1year,
                         stockClose_2year,
@@ -174,13 +177,18 @@ class StockDetailView(APIView):
             return Response(content_dict)
         
         elif request.POST['method'] == 'save':
-            save_stockdetail(
-                token, 
-                request.POST['stock'], 
-                request.POST['description'],
-            )
+            today = datetime.datetime.now()
+            yesterday = (today - BDay(1)).date()
+            share = Shares(request.POST['stock'], 1)
+            resp = share.getStockDetails(yesterday)
+            if resp:
+                save_stockdetail(
+                    token, 
+                    request.POST['stock'], 
+                    request.POST['description'],
+                )
 
-            return Response({'resp':1})
+            return Response({'resp':resp})
         elif request.POST['method'] == 'del':
             del_stockdetail(
                 token, 
@@ -195,5 +203,30 @@ class StockDetailView(APIView):
             stockDetail = share.getStockDetails(request.POST['date'])
 
             return Response(stockDetail)
+        else:
+            return Response({'resp':'No method '+request.POST['method']})
+
+class PredictView(APIView):
+    '''Class to manage the list of the users stock details'''
+    permission_classes = (IsAuthenticated,)
+
+    # Receives the request and returns the json with the message
+    def post(self, request):
+
+        token = request.META['HTTP_AUTHORIZATION'].replace('Token ','')
+        
+        if request.POST['method'] == 'predict':
+            share = Shares(request.POST['symbol'], 1)
+
+            prediction = share.predict()
+
+            resp = (True if isinstance(prediction, list) else prediction)
+
+            content = {
+                    'resp': resp,
+                    'data':prediction
+                }
+
+            return Response(content)
         else:
             return Response({'resp':'No method '+request.POST['method']})
