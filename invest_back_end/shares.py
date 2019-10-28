@@ -3,14 +3,6 @@ import numpy as np
 import time
 from datetime import datetime, timedelta
 import re
-import pandas as pd
-from selenium import webdriver
-import pickle
-from keras.layers.recurrent import LSTM
-from keras.models import Sequential
-from keras.layers.core import Dense, Dropout
-from keras import optimizers
-from keras.models import load_model
 
 # location given here 
 location = "Brazil, Ribeirão Preto"
@@ -48,6 +40,7 @@ class Shares():
             try:
                 send = data['history']['-'.join(reversed(date.split('/')))]
             except Exception as e:
+                print(e)
                 send = False
         return send
     

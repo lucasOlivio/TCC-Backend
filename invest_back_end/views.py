@@ -104,14 +104,16 @@ class CompGraphView(APIView):
         
         elif request.POST['method'] == 'save':
             today = datetime.datetime.now()
-            yesterday = (today - BDay(1)).date()
+            yesterday = (today - BDay(1)).date().strftime('%Y-%m-%d')
             share = Shares(request.POST['stock'], 1)
             resp = share.getStockDetails(yesterday)
             if resp:
-                save_stockdetail(
+                saved = save_graphcomp(
                     token, 
+                    request.POST['index'], 
                     request.POST['stock'], 
                     request.POST['description'],
+                    request.POST['color']
                 )
 
             return Response({'resp':resp})
